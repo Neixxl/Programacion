@@ -7,7 +7,8 @@ Algoritmo todoslosparesnei
 	Escribir "Define el segundo numero"
 	Leer numSegundo;
 	
-	i = numPrimero;
+		//Le resto 1 para que tome en cuenta el numero original ya que dentro del bucle for se suma inmediatamente 1 al numero.
+	i = numPrimero - 1;
 	Mientras i < numSegundo Hacer
 		//Se calcula cada numero desde el primero hasta el segundo sumando 1 al equivalente de numPrimero que en este caso es i.
 		i = i + 1;
